@@ -1,0 +1,110 @@
+{
+	"testimonials": [
+		{
+			"id": "1",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nihil, iste non voluptates blanditiis magnam nisi rerum excepturi itaque libero ipsum dolor sit amet, consectetur adipisicing elit. Numquam nihil, iste non voluptates blanditiis magnam nisi rerum excepturi itaque libero voluptates blanditiis magnam nisi rerum excepturi itaque libero.",
+			"author": "Anna Barnes, Just Space - General Manager"
+		},
+		{
+			"id": "2",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nihil, iste non voluptates blanditiis magnam nisi rerum excepturi itaque libero.",
+			"author": "Lorem ipsum dolor sit."
+		},
+		{
+			"id": "3",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nihil, iste non voluptates blanditiis magnam nisi rerum excepturi itaque libero.",
+			"author": "Lorem ipsum dolor sit."
+		},
+		{
+			"id": "4",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nihil, iste non voluptates blanditiis magnam nisi rerum excepturi itaque libero.",
+			"author": "Lorem ipsum dolor sit."
+		}
+	],
+
+	"features": [
+		{ 	"id": "1",
+			"image": "../../images/grids/1.png",
+			"header": "Pre-set images",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+		},
+		{	"id": "2",
+			"image": "../../images/grids/2.png",
+			"header": "Hassle-free management",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur dignissimos"
+		},
+		{	"id": "3",
+			"image": "../../images/grids/3.png",
+			"header": "Connect any docker host",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur dignissimos"
+		},
+		{	"id": "4",
+			"image": "../../images/grids/4.png",
+			"header": "Logs Verification",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur dignissimos"
+		},
+		{	"id": "7",
+			"image": "../../images/grids/7.png",
+			"header": "scaling automation",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur dignissimos"
+		},
+		{	"id": "5",
+			"image": "../../images/grids/5.png",
+			"header": "analysis and reports",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur dignissimos"
+		}
+	],
+
+	"descriptions": [
+		{
+			"id": "1",
+			"content": [
+				{
+					"header": "Optimize your businesses by orchestrating your microservices",
+					"text": [
+						"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque sed iure!",
+						"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque sed iure!"
+					],
+					"button": "sign up for beta"
+				}
+			],
+			"images": [
+				"https://cdn-images-1.medium.com/max/2000/1*LjG4WDerTbSVkd8wlC-YRg.jpeg"
+			]
+		},
+		{
+			"id": "2",
+			"content": [
+				{
+					"tab": "animation",
+					"header": "Optimize your businesses by orchestrating your microservices",
+					"text": [
+						"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque sed iure, quasi:",
+						[
+							"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque sed iure, quasi deleniti consequuntur placeat quis quibusdam modi magnam.",
+							"eum consequuntur placeat quis quibusdam modi magnam sed!"
+						]
+					],
+					"button": "sign up for beta"
+				},
+				{
+					"tab": "statistic",
+					"header": "Lorem ipsum dolor sit amet",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque sed iure",
+					"button": "sign up"
+				},
+				{
+					"tab": "support",
+					"header": "Lorem ipsum",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+					"button": "beta"
+				}
+			],
+			"images": [
+				"https://cdn-images-1.medium.com/max/2000/1*LjG4WDerTbSVkd8wlC-YRg.jpeg",
+				"https://cdn-images-1.medium.com/max/2000/1*LjG4WDerTbSVkd8wlC-YRg.jpeg",
+				"https://cdn-images-1.medium.com/max/2000/1*LjG4WDerTbSVkd8wlC-YRg.jpeg"
+			]
+		}
+	]
+}

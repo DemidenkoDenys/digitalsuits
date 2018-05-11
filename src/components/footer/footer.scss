@@ -1,0 +1,25 @@
+.footer-primary{
+	font-size: 10px;
+
+	.socials{
+		display: flex;
+		justify-content: center;
+		background-color: #e6eaf5;
+
+		li{
+			text-transform: uppercase;
+			padding: 23px 25px;
+
+			a{
+				display: inline-block;
+				cursor: pointer;
+			}
+		}
+	}
+
+	.copyright{
+		text-align: center;
+		padding: 25px;
+		color: grey;
+	}
+}

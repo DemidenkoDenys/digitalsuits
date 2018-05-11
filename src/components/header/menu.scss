@@ -1,0 +1,29 @@
+.menu-hamburger{
+	margin: 0 20px;
+}
+
+.menu-wrapper{
+	position: relative;
+}
+
+.menu-primary{
+	width: auto;
+	position: absolute;
+	right: 0;
+	top: 100%;
+	list-style-type: none;
+	padding: 10px 20px;
+
+	&.closed{
+		display: none;
+	}
+
+	li{
+		white-space: nowrap;
+
+		a{
+			cursor: pointer;
+			color: #fff;
+		}
+	}
+}

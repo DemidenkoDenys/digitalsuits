@@ -1,0 +1,65 @@
+.slider-section{
+
+	.slick-dots{
+		bottom: 10px;
+		color: #9122ea;
+
+		li{
+			margin: 0;
+
+			button:before{
+				font-size: 12px;
+				opacity: .8;
+				transition: .5s color;
+				color: #901eed;
+			}
+
+			&.slick-active{
+				button:before{
+					color: #37e9d3;
+				}
+			}
+		}
+	}
+
+	.slick-slide{
+		padding: 0 50px 50px;
+		text-align: center;
+		color: #fff;
+
+		@media screen and (max-width: 480px){
+			padding: 25px;
+		}
+
+		blockquote{
+			font-style: italic;
+			font-size: 0.8rem;
+    		line-height: 1.2rem;
+    		letter-spacing: 2px;
+			border: none;
+			padding: 35px 80px 0;
+
+			@media screen and (max-width: 480px){
+				padding: 25px 0 0 0;
+			}
+		}
+
+		img{
+			display: block;
+			width: 70px;
+			height: 70px;
+			margin: 0 auto;
+		}
+
+		footer{
+			margin-bottom: 15px;
+
+			cite{
+				font-size: 0.9rem;
+    			font-weight: 900;
+    			font-style: normal;
+    			letter-spacing: 1.7px;
+			}
+		}
+	}
+}

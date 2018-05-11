@@ -1,0 +1,18 @@
+.sign-up-section{
+	padding: 7px 50px 50px;
+	background-color: #140323;
+	color: #fff;
+
+	@media screen and (max-width: 480px){
+		padding: 7px 25px 25px;
+	}
+
+	h2.section-header{
+		padding-bottom: 25px;
+	}
+
+	p{
+		font-weight: bold;
+		text-align: center;
+	}
+}

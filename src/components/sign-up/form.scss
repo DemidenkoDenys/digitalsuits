@@ -1,0 +1,79 @@
+.sign-up-form{
+	padding: 80px 20px 0;
+
+	@media screen and (max-width: 480px){
+		padding-top: 50px;	
+	}
+}
+
+.inputs-wrapper{
+	margin-bottom: 50px;
+
+	@media screen and (max-width: 480px){
+		margin-bottom: 20px;
+	}
+
+	label{
+		position: relative;
+		display: inline-block;
+		width: calc(33% - 20px);
+		margin: 0 10px;
+
+		@media screen and (max-width: 480px){
+			width: 100%;
+			margin: 0 0 35px 0;
+		}
+
+		span{
+			position: absolute;
+			left: 0;
+			top: -20px;
+			font-size: 10px;
+			text-transform: uppercase;
+			transition: font-size .5s, top .5s;
+		}
+
+		input{
+			width: 100%;
+			background-color: transparent;
+			border: none;
+			border-bottom: 2px solid #fff;
+
+			&.unvalid{
+				border-bottom: 2px solid red;
+			}
+
+			&[value='']{
+				border-bottom: 2px solid #fff;
+
+				& + span{
+					font-size: 12px;
+					top: -10px;
+				}
+			}
+
+			&:focus + span{
+				font-size: 10px;
+				top: -20px;
+			}
+		}
+	}
+}
+
+.button-wrapper{
+	text-align: center;
+
+	button{
+		background-color: transparent;
+		padding: 13px 38px;
+
+		&:disabled{
+			opacity: .2;
+
+			&:hover{
+				background-color: transparent;
+				cursor: default;
+			}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+.headliner-section{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+
+	height: 100vh;
+	
+	color: white;
+	text-align: center;
+
+	h1{
+		font-size: 3.7rem;
+		font-weight: bold;
+		margin: 0;
+		margin-bottom: 2rem;
+		text-transform: uppercase;
+	}
+
+	small{
+		font-size: 0.7rem;
+		font-weight: bold;
+		margin-bottom: 2.2rem;
+		text-transform: uppercase;
+	}
+
+	@media screen and (max-width: 480px){
+		// height: 70vw;
+
+		h1{
+			font-size: 2rem;
+		}
+	}
+}
